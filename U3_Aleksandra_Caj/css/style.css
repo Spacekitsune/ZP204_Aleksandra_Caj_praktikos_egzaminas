@@ -1,0 +1,93 @@
+body {
+    background-color: #f8f8f8;
+    font-family: 'Exo', sans-serif;
+    color: #697070;
+}
+
+/*HEADER*/
+header {
+    background-color: #FFFFFF;
+}
+
+#logo {
+    height: 60px;
+    margin: 20px;
+}
+
+/*MAIN*/
+main {
+    width: 100vw;
+    margin: auto;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #2C3E50;
+}
+
+/*CARD*/
+
+h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #6eb92b;
+
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+i {
+    color: #6eb92b;
+}
+
+/*RATING*/
+
+.rating-container {
+    width: 100px;
+    padding: 20px 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.rating-container .star-widget input {
+    display: none;
+}
+
+.star-widget label {
+    font-size: 25px;
+    color: black;
+    padding: 3px;
+    float: right;
+    transition: all 0.2s ease;
+}
+
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label {
+    color: #6eb92b;
+}
+
+input:checked ~label{
+    color: #6eb92b;
+}
+
+.rating-star {
+    color: #697070 ;
+}
+
+/*FORM*/
+
+#button-submit, #rating-submit {
+    background-color: #6eb92b;
+    color: #FFFFFF;
+}
