@@ -15,6 +15,10 @@ header {
 }
 
 /*MAIN*/
+main {
+    width: 100vw;
+    margin: auto;
+}
 
 h1 {
     font-size: 32px;
